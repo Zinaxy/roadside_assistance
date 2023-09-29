@@ -1,0 +1,26 @@
+Installation guide line
+________________________
+
+1.download and install nodejs 16v+
+2.download and install laragon fullpackage (the one named full package)
+3.download phpMyAdmin latest version
+    then go to C:\laragon\etc\apps and extract the zip fill and rename it to phpMyAdmin
+4.open laragon and click start all
+5.click database option to go to phpMyAdmin
+   a.within phpMyAdmin create database with name vbms
+   b.then import the vbms.sql file within your project folder
+6.extract your project in C:\laragon\www folder password(123)
+7.open laragon and click terminal
+    a. navigate to your project folder ...simply say    cd vbms
+    b.run command npm run dev to start vite app
+8.right click white space on laragon then www then click your project (Boom your project run on the browser)
+  if it failed you did something wrong
+
+
+  Our system
+  ________________________
+  1.admin is alread registered
+    email: admin@admin.command
+    password: password123
+
+
